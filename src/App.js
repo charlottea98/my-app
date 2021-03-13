@@ -1,7 +1,7 @@
 import Navigation from './Navigation.js';
 import Content from './Content.js';
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router} from "react-router-dom";
 import './App.css';
 
 function App() {
