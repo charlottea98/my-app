@@ -1,21 +1,15 @@
-import logo from './logo.svg';
+import Navigation from './Navigation.js';
+import Content from './Content.js';
+import React from 'react';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Charlotte Andersson
-        </p>
-        <p
-          className="App-link"
-        >
-          2021
-        </p>
-      </header>
-    </div>
+    <Router>
+      <Navigation></Navigation>
+      <Content></Content>
+    </Router>
   );
 }
 
